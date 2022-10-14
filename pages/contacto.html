@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="estilo" href="./css/estilo.css">
+    <title>Contacto</title>
+    <link rel="shortcut icon" href="../images/favicon-32x32.png">
+    <script src="https://kit.fontawesome.com/de9d664f36.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./../css/estilo.css">
+</head>
+
+<body id="cinco">
+    <header class="divA1">
+        <div class="logo">
+            <img src="../images/LOGO CONSTRUCCIONESH.LONDOÑO.jpg" width="200px" height="100px" alt="logo" />
+        </div>
+        <nav>
+            <ul class="divAul1">
+                <li><a href="./../index.html"> home </a></li>
+                <li><a href="./servicios.html"> Servicios </a></li>
+                <li><a href="./portafolio.html"> Portafolio</a></li>
+                <li><a href="./galería.html"> Galeria</a></li>
+                <li><a href="./contacto.html"> Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="contacto">
+        <div class="contenedor">
+            <div class="casa">
+                <img src="../images/2 casas.jpg"  alt="casa bonita" />
+            </div>
+        </div>
+        <div id="after_submit">
+            <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+                <div class="row">
+                    <label class="required" for="name">Your name:</label><br />
+                    <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+                    <span id="name_validation" class="error_message"></span>
+                </div>
+                <div class="row">
+                    <label class="required" for="email">Your email:</label><br />
+                    <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+                    <span id="email_validation" class="error_message"></span>
+                </div>
+                <div class="row">
+                    <label class="required" for="message">Your message:</label><br />
+                    <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+                    <span id="message_validation" class="error_message"></span>
+                </div>
+
+                <input id="submit_button" type="submit" value="Send email" />
+            </form>
+        </div>
+    </main>
+
+    <footer class="footer1">
+        <a class="icono" href="https://www.google.com/intl/es/gmail/about/" target="_blank">
+            <i class="far fa-envelope"></i>
+        </a>
+        <a class="icono" href="https://www.whatsapp.com/" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+        <a class="icono" href="https://www.instagram.com/" target="_blank">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <p>Hecho por Jose Manuel Londoño Castaño</p>
+    </footer>
+
+</body>
+
+</html>
