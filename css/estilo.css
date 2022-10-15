@@ -202,8 +202,9 @@ a {
 #after_submit {
   justify-content: start;
   margin-left: 400px;
-  margin-top: 200px;
+  margin-top: 150px;
   font-size: 30px;
+  margin-bottom: 50px;
 }
 
 .row {
