@@ -131,7 +131,6 @@ a {
   padding-top: 50px;
   padding-bottom: 15px;
 }
-
 .contenedor {
   margin: 100px 100px 100px 500px;
 }
@@ -166,7 +165,6 @@ a {
 .imagen-portafolio {
   text-align: center;
 }
-
 .titulo-portafolio {
   text-align: center;
   padding-bottom: 10px;
@@ -201,7 +199,7 @@ a {
 
 #after_submit {
   justify-content: start;
-  margin-left: 400px;
+  margin-left: 0px;
   margin-top: 150px;
   font-size: 30px;
   margin-bottom: 50px;
@@ -219,6 +217,12 @@ a {
 .input {
   font-size: 20px;
 }
+.gmap_iframe{
+  width: 600px ;
+  height: 500px;
+  margin-right: 50px;
+  
+}
 
 .text-white {
   --bs-text-opacity: 1;
@@ -227,6 +231,7 @@ a {
 
 .text-center {
   text-align: center !important;
+
 }
 
 footer {
