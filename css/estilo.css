@@ -112,6 +112,7 @@ a {
 .contenido3 {
   margin-left: 500px;
   margin-right: 500px;
+  margin-bottom: 50px;
 }
 
 .casa {
@@ -141,6 +142,7 @@ a {
   margin-left: 100px;
   margin-top: 200px;
   margin-right: 100px;
+  margin-bottom: 64px;
 }
 
 .casa1{
@@ -240,11 +242,6 @@ a {
 
 }
 
-footer {
-  background-color: rgba(93, 82, 63, 0.694);
-  color: white;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -263,22 +260,30 @@ footer {
 .p-4 {
   padding: 1.15rem !important;
   font-size: 19px;
+  background-color: rgba(93, 82, 63, 0.694);
+  
+}
+.p-41 {
+  padding: 1.15rem !important;
+  font-size: 19px;
+  background-color: rgb(50, 94, 88);
+  
 }
 
-.container,
-.container-fluid,
-.container-lg,
-.container-md,
-.container-sm,
-.container-xl,
-.container-xxl {
+.container{
   width: 100%;
   padding-right: var(--bs-gutter-x, .75rem);
   padding-left: var(--bs-gutter-x, .75rem);
   margin-right: auto;
   margin-left: auto;
 }
-
+.container1{
+  width: 100%;
+  padding-right: var(--bs-gutter-x, .75rem);
+  padding-left: var(--bs-gutter-x, .75rem);
+  margin-right: auto;
+  margin-left: auto;
+}
 * {
   margin: 0;
   padding: 0;
@@ -299,6 +304,4 @@ section {
   color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
 }
 
-.text-center {
-  text-align: center !important;
-}
+
