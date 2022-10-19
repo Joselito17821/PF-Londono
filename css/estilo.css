@@ -35,6 +35,9 @@
   padding: 15px;
 }
 
+
+
+
 .divA2 {
   display: flex;
   justify-content: center;
@@ -52,6 +55,7 @@
   justify-content: center;
   list-style: none;
 }
+
 
 .divAul2 {
   display: flex;
@@ -124,16 +128,17 @@ a {
 }
 
 .contenedor {
-display: flex;
+  display: flex;
   margin: 53px 150px 100px 400px;
   justify-content: space-between;
 }
 
-#contacto{
-display: flex;
-flex-direction: row;
-margin-top: 10px;
+#contacto {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
 }
+
 .servicios {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -154,15 +159,23 @@ margin-top: 10px;
   margin-top: 70px;
 }
 
+.portafolio{
+  display: grid;
+  grid-template-columns: repeat(3,5fr);
+}
 
 .contenido-portafolio {
   align-items: center;
   justify-content: center;
   float: right;
-  margin-top: 200px;
-  margin-right: 170px;
+  margin-top: 150px;
+  margin-right: 150px;
+  margin-left: 150px;
+  margin-bottom: 83px;
 }
-
+.contenido-portafolio p{
+  text-align: center;
+}
 .imagen-portafolio img {
   margin-top: 30px;
   text-align: center;
@@ -269,7 +282,6 @@ footer {
   padding: 1.15rem !important;
   font-size: 19px;
   background-color: rgba(93, 82, 63, 0.694);
-  margin-top: 663px;
 }
 
 .container {
