@@ -33,15 +33,13 @@
   justify-content: end;
   background-color: rgba(93, 82, 63, 0.694);
   padding: 15px;
+  display: grid;
+  grid-template-columns: repeat(2,2fr);
 }
 .divA1 a:hover{
   color: white;
   transition: 0.8s;
 }
-
-
-
-
 
 .divA2 {
   display: flex;
@@ -52,6 +50,8 @@
   justify-content: end;
   padding: 15px;
   background-color: rgb(50, 94, 88);
+  display: grid;
+  grid-template-columns: repeat(2,2fr);
 }
 .divA2 a:hover{
     color: black;
@@ -60,16 +60,16 @@
 
 .divAul1 {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-end;
+  justify-content: flex-end;
   list-style: none;
 }
 
 
 .divAul2 {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-end;
+  justify-content: flex-end;
   list-style: none;
 }
 
@@ -91,11 +91,8 @@
   color: white;
 }
 
-.logo {
-  align-items: center;
+.logo img {
   justify-content: center;
-  display: flex;
-  margin-right: 1250px;
 }
 
 a {
@@ -317,6 +314,7 @@ footer {
   padding-left: var(--bs-gutter-x, .75rem);
   margin-right: auto;
   margin-left: auto;
+
 }
 
 .containergaleria {
@@ -340,7 +338,9 @@ section {
   display: block;
 }
 
-.text-white {
-  --bs-text-opacity: 1;
-  color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
+@media screen and (max-width: 320px) {
+  
+}
+@media screen and (max-width: 480px) {
+  
 }
