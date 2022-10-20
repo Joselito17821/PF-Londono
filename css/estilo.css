@@ -277,11 +277,11 @@ footer {
   background-color: rgb(50, 94, 88);
 
 }
-
 .p-42 {
   padding: 1.15rem !important;
   font-size: 19px;
   background-color: rgba(93, 82, 63, 0.694);
+
 }
 
 .container {
@@ -303,6 +303,10 @@ footer {
   padding-left: var(--bs-gutter-x, .75rem);
   margin-right: auto;
   margin-left: auto;
+  color: rgb(231, 241, 241);
+}
+.container1 a{
+  color:rgb(231, 241, 241);
 }
 
 section {
