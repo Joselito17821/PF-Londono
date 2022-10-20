@@ -361,10 +361,8 @@ section {
   display: block;
 }
 
-@media screen and (max-width: 320px) {
-  
-}
 @media screen and (max-width: 480px) {
+  /*------- inicio index ------*/
   .contenido {
     text-align: center;
     margin-right: 50px;
@@ -383,7 +381,7 @@ section {
   }
     .divA1 {
       display: flex;
-      justify-content: center;
+      justify-content: flex-end;
       align-items: center;
       flex-direction: row;
       justify-content: space-between;
@@ -404,48 +402,38 @@ section {
       list-style: none;
     }
     .divAul1 li {
-      margin: 10px;
-      font-size: 120%;
+      margin: 5px;
+      font-size: 100%;
     }
-    
     .divAul1 a {
       color: rgb(0, 0, 0);
     }
-    .divAul1 li {
-      margin: 10px;
-      font-size: 120%;
+    .logo img {
+      justify-content: center;
+      width: 100px;
+      height: 50px;
     }
-    
-    .divAul1 a {
-      color: rgb(0, 0, 0);
-    }
-    text-white {
+    .text-white {
       --bs-text-opacity: 1;
       color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
     }
-    
     .text-center {
       text-align: center !important;
     
     }
-    
-    
     footer {
       display: block;
-    
     }
-    
     .p-4 {
       padding: 1.15rem !important;
       font-size: 19px;
       background-color: rgba(93, 82, 63, 0.694);
-    
     }
     .p-4 a:hover{
       color: white;
       transition: 0.8s;
     }
-    
+    /*-------fin index-----*/
   }
 
     
