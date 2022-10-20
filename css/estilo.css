@@ -34,6 +34,11 @@
   background-color: rgba(93, 82, 63, 0.694);
   padding: 15px;
 }
+.divA1 a:hover{
+  color: white;
+  transition: 0.8s;
+}
+
 
 
 
@@ -47,6 +52,10 @@
   justify-content: end;
   padding: 15px;
   background-color: rgb(50, 94, 88);
+}
+.divA2 a:hover{
+    color: black;
+    transition: 0.8s;
 }
 
 .divAul1 {
@@ -219,6 +228,11 @@ a {
 .imagen-tres {
   padding: 20px;
 }
+.containergaleria img:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-3%);
+    border:2px solid black;
+}
 
 #after_submit {
   justify-content: start;
@@ -262,6 +276,7 @@ a {
 
 footer {
   display: block;
+
 }
 
 .p-4 {
@@ -270,6 +285,10 @@ footer {
   background-color: rgba(93, 82, 63, 0.694);
 
 }
+.p-4 a:hover{
+  color: white;
+  transition: 0.8s;
+}
 
 .p-41 {
   padding: 1.15rem !important;
@@ -277,11 +296,19 @@ footer {
   background-color: rgb(50, 94, 88);
 
 }
+.p-41 a:hover{
+  color: black;
+  transition: 0.8s;
+}
 .p-42 {
   padding: 1.15rem !important;
   font-size: 19px;
   background-color: rgba(93, 82, 63, 0.694);
 
+}
+.p-42 a:hover{
+  color: black;
+  transition: 0.8s;
 }
 
 .container {
