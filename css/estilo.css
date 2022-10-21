@@ -34,9 +34,10 @@
   background-color: rgba(93, 82, 63, 0.694);
   padding: 15px;
   display: grid;
-  grid-template-columns: repeat(2,2fr);
+  grid-template-columns: repeat(2, 2fr);
 }
-.divA1 a:hover{
+
+.divA1 a:hover {
   color: white;
   transition: 0.8s;
 }
@@ -51,11 +52,12 @@
   padding: 15px;
   background-color: rgb(50, 94, 88);
   display: grid;
-  grid-template-columns: repeat(2,2fr);
+  grid-template-columns: repeat(2, 2fr);
 }
-.divA2 a:hover{
-    color: black;
-    transition: 0.8s;
+
+.divA2 a:hover {
+  color: black;
+  transition: 0.8s;
 }
 
 .divAul1 {
@@ -112,7 +114,8 @@ a {
   margin-top: 20px;
   margin-bottom: 10px;
 }
-.contenido img{
+
+.contenido img {
   width: 600px;
   height: 400px;
 }
@@ -143,7 +146,6 @@ a {
 .contenedor {
   display: flex;
   margin: 53px 150px 100px 400px;
-  justify-content: space-between;
 }
 
 #contacto {
@@ -165,7 +167,8 @@ a {
   display: flex;
   justify-content: center;
 }
-.casa1 img{
+
+.casa1 img {
   width: 600px;
   height: 400px;
 }
@@ -176,9 +179,9 @@ a {
   margin-top: 70px;
 }
 
-.portafolio{
+.portafolio {
   display: grid;
-  grid-template-columns: repeat(3,5fr);
+  grid-template-columns: repeat(3, 5fr);
 }
 
 .contenido-portafolio {
@@ -190,9 +193,11 @@ a {
   margin-left: 150px;
   margin-bottom: 83px;
 }
-.contenido-portafolio p{
+
+.contenido-portafolio p {
   text-align: center;
 }
+
 .imagen-portafolio img {
   margin-top: 30px;
   text-align: center;
@@ -226,7 +231,8 @@ a {
   margin-left: 150px;
   margin-bottom: 164px;
 }
-.galeria img{
+
+.galeria img {
   width: 400px;
   height: 250px;
 }
@@ -248,10 +254,11 @@ a {
   height: 150px;
   width: 150px;
 }
-.containergaleria img:hover{
-    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
-    transform: translateY(-3%);
-    border:2px solid black;
+
+.containergaleria img:hover {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+  transform: translateY(-3%);
+  border: 2px solid black;
 }
 
 #after_submit {
@@ -305,7 +312,8 @@ footer {
   background-color: rgba(93, 82, 63, 0.694);
 
 }
-.p-4 a:hover{
+
+.p-4 a:hover {
   color: white;
   transition: 0.8s;
 }
@@ -316,17 +324,20 @@ footer {
   background-color: rgb(50, 94, 88);
 
 }
-.p-41 a:hover{
+
+.p-41 a:hover {
   color: black;
   transition: 0.8s;
 }
+
 .p-42 {
   padding: 1.15rem !important;
   font-size: 19px;
   background-color: rgba(93, 82, 63, 0.694);
 
 }
-.p-42 a:hover{
+
+.p-42 a:hover {
   color: black;
   transition: 0.8s;
 }
@@ -353,8 +364,9 @@ footer {
   margin-left: auto;
   color: rgb(231, 241, 241);
 }
-.container1 a{
-  color:rgb(231, 241, 241);
+
+.container1 a {
+  color: rgb(231, 241, 241);
 }
 
 section {
@@ -362,81 +374,147 @@ section {
 }
 
 @media screen and (max-width: 480px) {
+
   /*------- inicio index ------*/
   .contenido {
     text-align: center;
     margin-right: 50px;
     margin-left: 50px;
   }
-  .contenido img{
+
+  .contenido img {
     width: 300px;
     height: 200px;
   }
-  .contenido3{
-      margin-left: 50px;
-      margin-right: 50px;
-      margin-bottom: 50px;
-      align-items: center;
+
+  .contenido3 {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    align-items: center;
     text-align: justify;
   }
-    .divA1 {
-      display: flex;
-      justify-content: flex-end;
-      align-items: center;
-      flex-direction: row;
-      justify-content: space-between;
-      justify-content: end;
-      background-color: rgba(93, 82, 63, 0.694);
-      padding: 5px;
-      display: grid;
-      grid-template-columns: repeat(2,2fr);
-    }
-    .divA1 a:hover{
-      color: white;
-      transition: 0.8s;
-    }
-    .divAul1 {
-      display: flex;
-      align-items: flex-end;
-      justify-content: flex-end;
-      list-style: none;
-    }
-    .divAul1 li {
-      margin: 5px;
-      font-size: 100%;
-    }
-    .divAul1 a {
-      color: rgb(0, 0, 0);
-    }
-    .logo img {
-      justify-content: center;
-      width: 100px;
-      height: 50px;
-    }
-    .text-white {
-      --bs-text-opacity: 1;
-      color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
-    }
-    .text-center {
-      text-align: center !important;
-    
-    }
-    footer {
-      display: block;
-    }
-    .p-4 {
-      padding: 1.15rem !important;
-      font-size: 19px;
-      background-color: rgba(93, 82, 63, 0.694);
-    }
-    .p-4 a:hover{
-      color: white;
-      transition: 0.8s;
-    }
-    /*-------fin index-----*/
+
+  .divA1 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: end;
+    background-color: rgba(93, 82, 63, 0.694);
+    padding: 5px;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
   }
 
-    
-  
-  
+  .divA1 a:hover {
+    color: white;
+    transition: 0.8s;
+  }
+
+  .divAul1 {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    list-style: none;
+  }
+
+  .divAul1 li {
+    margin: 5px;
+    font-size: 100%;
+  }
+
+  .divAul1 a {
+    color: rgb(0, 0, 0);
+  }
+
+  .logo img {
+    justify-content: center;
+    width: 100px;
+    height: 50px;
+  }
+
+  .text-white {
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
+  }
+
+  .text-center {
+    text-align: center !important;
+
+  }
+
+  footer {
+    display: block;
+  }
+
+  .p-4 {
+    padding: 1.15rem !important;
+    font-size: 19px;
+    background-color: rgba(93, 82, 63, 0.694);
+  }
+
+  .p-4 a:hover {
+    color: white;
+    transition: 0.8s;
+  }
+
+  /*-------fin index-----*/
+  /*-------inicio servicios-----*/
+
+  /*-------fin servicios-----*/
+  /*--------inicio portafolio-------*/
+
+  /*-------fin portafolio-------*/
+  /*--------inicio galeria-------*/
+
+  /*-------fin galeria-------*/
+  /*--------inicio contacto-------*/
+  #after_submit {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  #contact_form{
+    margin-left: 60px;
+    margin-bottom: 15px;
+  }
+
+  .row {
+    margin-top: 0; 
+    margin-bottom: 0;
+  }
+
+  #submit_button {
+    font-size: 20px;
+    display: grid;
+  }
+
+  .input {
+    font-size: 20px;
+  }
+
+  .gmap_iframe {
+    width: 380px;
+    height: 300px;
+  }
+
+  .contenedor {
+    display: flex;
+    margin-left: 50px;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-top: 30px;
+  }
+  #contacto{
+      display: grid;
+      grid-template-rows: repeat(2,2fr);
+      
+    }
+
+  }
+
+  /*-------fin contacto-------*/
 
