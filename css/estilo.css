@@ -132,8 +132,12 @@ a {
 .contenido3 {
   margin-left: 500px;
   margin-right: 500px;
-  margin-bottom: 50px;
+  margin-bottom: 60px;
+  font-size: 150%;
+  text-align: center;
+  font-style: normal;
 }
+
 
 .texto-1,
 .texto-2,
@@ -474,8 +478,10 @@ section {
   #after_submit {
     display: flex;
     flex-direction: column;
-    margin-top: 0;
+    margin-top: 20px;
     margin-bottom: 0;
+    margin-right: 200000px;
+
   }
   #contact_form{
     margin-left: 60px;
@@ -503,15 +509,14 @@ section {
 
   .contenedor {
     display: flex;
-    margin-left: 50px;
+    margin-left: 60px;
     margin-right: 0;
     margin-bottom: 0;
     margin-top: 30px;
   }
   #contacto{
-      display: grid;
-      grid-template-rows: repeat(2,2fr);
-      
+      display: flex;
+      flex-direction: column;
     }
 
   }
