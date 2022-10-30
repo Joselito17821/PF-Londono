@@ -150,16 +150,17 @@ a {
 }
 
 .contenedor {
-  display: grid;
-  grid-template-columns: repeat(2,4fr);
-  margin: 53px 15px 100px 0px;
+  display: flex;
+  justify-content: end;
+  margin-top: 53px;
+  margin-bottom: 96px;
   margin-left: 30px;
-  
 }
 
 #contacto {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  justify-content: end;
   margin-top: 10px;
 }
 
@@ -271,11 +272,11 @@ a {
 }
 
 #after_submit {
-  justify-content: start;
-  margin-left: 0px;
   margin-top: 60px;
   font-size: 30px;
   margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
 }
 
 .row {
@@ -527,5 +528,21 @@ section {
   }
 
   /*-------fin contacto-------*/
-  
+  @media screen and (max-width: 1300px) {
 
+    /*------- inicio index ------*/
+  
+    /*-------fin index-----*/
+    /*-------inicio servicios-----*/
+  
+    /*-------fin servicios-----*/
+    /*--------inicio portafolio-------*/
+  
+    /*-------fin portafolio-------*/
+    /*--------inicio galeria-------*/
+  
+    /*-------fin galeria-------*/
+    /*--------inicio contacto-------*/
+    
+    /*-------fin contacto-------*/
+  }
