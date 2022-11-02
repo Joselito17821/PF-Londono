@@ -526,12 +526,25 @@ section {
     }
 
   }
-
-  /*-------fin contacto-------*/
-  @media screen and (max-width: 1300px) {
-
+  @media screen and (max-width: 491px) {
     /*------- inicio index ------*/
-  
+  .contenido3{
+    display: flex;
+    justify-content: center;
+  }
+  .divA1{
+    justify-content: center;
+  }
+  .divAul1 li{
+    font-size: 10000px;
+  }
+  .logo img{
+    height: 100px;
+    width: 150px;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 20px;
+  }
     /*-------fin index-----*/
     /*-------inicio servicios-----*/
   
@@ -545,4 +558,159 @@ section {
     /*--------inicio contacto-------*/
     
     /*-------fin contacto-------*/
+  @media screen and (max-width: 522px) {
+    /*------- inicio index ------*/
+  .contenido3{
+    display: flex;
+    justify-content: center;
+  }
+  .divA1{
+    justify-content: center;
+  }
+  .divAul1 li{
+    font-size: 15px;
+  }
+  .logo img{
+    height: 100px;
+    width: 150px;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 20px;
+  }
+    /*-------fin index-----*/
+    /*-------inicio servicios-----*/
+  
+    /*-------fin servicios-----*/
+    /*--------inicio portafolio-------*/
+  
+    /*-------fin portafolio-------*/
+    /*--------inicio galeria-------*/
+  
+    /*-------fin galeria-------*/
+    /*--------inicio contacto-------*/
+    
+    /*-------fin contacto-------*/
+  }
+  @media screen and (max-width: 570px) {
+    /*------- inicio index ------*/
+  .contenido3{
+    display: flex;
+    justify-content: center;
+  }
+  .divAul1 li{
+    font-size: 15px;
+  }
+  .logo img{
+    height: 100px;
+    width: 150px;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 20px;
+  }
+    /*-------fin index-----*/
+    /*-------inicio servicios-----*/
+  
+    /*-------fin servicios-----*/
+    /*--------inicio portafolio-------*/
+  
+    /*-------fin portafolio-------*/
+    /*--------inicio galeria-------*/
+  
+    /*-------fin galeria-------*/
+    /*--------inicio contacto-------*/
+    
+    /*-------fin contacto-------*/
+  }
+  @media screen and (max-width: 620px) {
+    /*------- inicio index ------*/
+  .contenido img{
+    width: 400px;
+    height: 300px;
+  }
+    /*-------fin index-----*/
+    /*-------inicio servicios-----*/
+  
+    /*-------fin servicios-----*/
+    /*--------inicio portafolio-------*/
+  
+    /*-------fin portafolio-------*/
+    /*--------inicio galeria-------*/
+  
+    /*-------fin galeria-------*/
+    /*--------inicio contacto-------*/
+    
+    /*-------fin contacto-------*/
+  }
+  @media screen and (max-width: 640px) {
+    /*------- inicio index ------*/
+  .contenido3{
+    display: flex;
+    justify-content: center;
+  }
+  .divAul1{
+    font-size: 15px;
+  }
+  .logo img{
+    height: 100px;
+    width: 150px;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 20px;
+  }
+    /*-------fin index-----*/
+    /*-------inicio servicios-----*/
+  
+    /*-------fin servicios-----*/
+    /*--------inicio portafolio-------*/
+  
+    /*-------fin portafolio-------*/
+    /*--------inicio galeria-------*/
+  
+    /*-------fin galeria-------*/
+    /*--------inicio contacto-------*/
+    
+    /*-------fin contacto-------*/
+  }
+  @media screen and (max-width: 1024px) {
+    /*------- inicio index ------*/
+  .contenido3{
+    display: flex;
+    justify-content: center;
+    margin-left:  50px;
+    margin-right: 50px;
+  }
+    /*-------fin index-----*/
+    /*-------inicio servicios-----*/
+  
+    /*-------fin servicios-----*/
+    /*--------inicio portafolio-------*/
+  
+    /*-------fin portafolio-------*/
+    /*--------inicio galeria-------*/
+  
+    /*-------fin galeria-------*/
+    /*--------inicio contacto-------*/
+    
+    /*-------fin contacto-------*/
+  }
+  @media screen and (max-width: 1200px) {
+    /*------- inicio index ------*/
+  .contenido3{
+    display: flex;
+    justify-content: center;
+  }
+    /*-------fin index-----*/
+    /*-------inicio servicios-----*/
+  
+    /*-------fin servicios-----*/
+    /*--------inicio portafolio-------*/
+  
+    /*-------fin portafolio-------*/
+    /*--------inicio galeria-------*/
+  
+    /*-------fin galeria-------*/
+    /*--------inicio contacto-------*/
+    
+    /*-------fin contacto-------*/
+  }
   }
