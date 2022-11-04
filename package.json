@@ -1,0 +1,22 @@
+{
+  "name": "proyecto-coderhouse",
+  "version": "1.0.0",
+  "description": "\"instalando mi primer SASS\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Joselito17821/preEntrega2-Londo-o.git"
+  },
+  "keywords": [
+    "developer"
+  ],
+  "author": "Jose Manuel Londono Castano",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Joselito17821/preEntrega2-Londo-o/issues"
+  },
+  "homepage": "https://github.com/Joselito17821/preEntrega2-Londo-o#readme"
+}
