@@ -5,9 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+
   },
   "repository": {
-    "type": "git",
+    "type": "git", 
     "url": "git+https://github.com/Joselito17821/preEntrega2-Londo-o.git"
   },
   "keywords": [
@@ -18,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/Joselito17821/preEntrega2-Londo-o/issues"
   },
-  "homepage": "https://github.com/Joselito17821/preEntrega2-Londo-o#readme"
+  "homepage": "https://github.com/Joselito17821/preEntrega2-Londo-o#readme",
+  "dependencies": {
+    "nodemon": "^2.0.20"
+  }
 }
