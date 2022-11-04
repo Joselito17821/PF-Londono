@@ -1,26 +1,29 @@
 {
-  "name": "proyecto-coderhouse",
+  "name": "construcciones-h-londono",
   "version": "1.0.0",
-  "description": "\"instalando mi primer SASS\"",
+  "description": "Mi primer web con sass",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/estilo.scss css/main.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
 
   },
   "repository": {
-    "type": "git", 
-    "url": "git+https://github.com/Joselito17821/preEntrega2-Londo-o.git"
+    "type": "git",
+    "url": "git+https://github.com/Joselito17821/PreEntrega3-Londono.git"
   },
   "keywords": [
     "developer"
   ],
-  "author": "Jose Manuel Londono Castano",
+  "author": "Jose Manuel",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Joselito17821/preEntrega2-Londo-o/issues"
+    "url": "https://github.com/Joselito17821/PreEntrega3-Londono/issues"
   },
-  "homepage": "https://github.com/Joselito17821/preEntrega2-Londo-o#readme",
-  "dependencies": {
+  "homepage": "https://github.com/Joselito17821/PreEntrega3-Londono#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.3",
     "nodemon": "^2.0.20"
   }
 }
